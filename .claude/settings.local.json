@@ -1,0 +1,38 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(mkdir:*)",
+      "WebSearch",
+      "Skill(devops-data:create-tech-spec)",
+      "Bash(uv pip install:*)",
+      "Bash(uv venv:*)",
+      "Bash(.venv/bin/xenv:*)",
+      "Bash(git remote add:*)",
+      "Bash(git -C /Users/jeremiepoutrin/projects/github/jpoutrin/gb-training remote get-url:*)",
+      "Bash(/Users/jeremiepoutrin/projects/github/jpoutrin/local-env-cli/.venv/bin/xenv status:*)",
+      "Bash(pushd:*)",
+      "Bash(popd)",
+      "Bash(/usr/bin/diff:*)",
+      "Bash(echo:*)",
+      "Bash(/Users/jeremiepoutrin/projects/github/jpoutrin/local-env-cli/.venv/bin/xenv sync:*)",
+      "Bash(zsh -c 'eval \"\"$\\(xenv hook zsh\\)\"\" && type _xenv_hook')",
+      "Bash(zsh -c 'eval \"\"$\\(xenv hook zsh\\)\"\" && cd /Users/jeremiepoutrin/projects/github/jpoutrin/gb-training && _xenv_hook && echo \"\"Hook ran successfully\"\"')",
+      "Bash(zsh:*)",
+      "Bash(git -C /Users/jeremiepoutrin/projects/github/jpoutrin/gb-training/fred remote get-url:*)",
+      "Bash(xenv status:*)",
+      "Bash(cat:*)",
+      "Bash(grep:*)",
+      "Bash(xenv sync:*)",
+      "Bash(shasum:*)",
+      "Bash(/Users/jeremiepoutrin/projects/github/jpoutrin/local-env-cli/.venv/bin/python:*)",
+      "Bash(find:*)",
+      "Bash(xenv --version:*)",
+      "Bash(uv tool install:*)",
+      "Bash(python3 -c \"import xenv_cli.commands.status; print\\(xenv_cli.commands.status._get_status_hint.__code__.co_consts\\)\")",
+      "Bash(~/.local/share/uv/tools/xenv-cli/bin/python3:*)",
+      "Bash(uv tool uninstall:*)",
+      "Bash(.venv/bin/pytest tests/ -v)",
+      "Bash(git add:*)"
+    ]
+  }
+}
